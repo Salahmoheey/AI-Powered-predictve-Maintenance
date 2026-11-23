@@ -1,0 +1,7 @@
+{
+  "random_state": 42,
+  "validation_size": 0.2,
+  "train_units": 80,
+  "validation_units": 20,
+  "test_units": 100
+}

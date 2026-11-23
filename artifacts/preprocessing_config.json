@@ -1,0 +1,169 @@
+{
+  "sklearn_version": "1.9.1",
+  "scaler": "MinMaxScaler fitted on the 80 training engines only",
+  "rul_cap": 125,
+  "window": 30,
+  "random_state": 42,
+  "dropped_columns": [
+    "sensor_1",
+    "sensor_5",
+    "sensor_10",
+    "sensor_16",
+    "sensor_18",
+    "sensor_19",
+    "setting_3"
+  ],
+  "scaled_columns": [
+    "setting_1",
+    "setting_2",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "scaled_column_ranges": {
+    "setting_1": {
+      "train_min": -0.0087,
+      "train_max": 0.0087
+    },
+    "setting_2": {
+      "train_min": -0.0006,
+      "train_max": 0.0006
+    },
+    "sensor_2": {
+      "train_min": 641.21,
+      "train_max": 644.53
+    },
+    "sensor_3": {
+      "train_min": 1571.04,
+      "train_max": 1616.91
+    },
+    "sensor_4": {
+      "train_min": 1385.19,
+      "train_max": 1441.49
+    },
+    "sensor_6": {
+      "train_min": 21.6,
+      "train_max": 21.61
+    },
+    "sensor_7": {
+      "train_min": 549.85,
+      "train_max": 556.06
+    },
+    "sensor_8": {
+      "train_min": 2387.9,
+      "train_max": 2388.56
+    },
+    "sensor_9": {
+      "train_min": 9021.73,
+      "train_max": 9244.59
+    },
+    "sensor_11": {
+      "train_min": 46.85,
+      "train_max": 48.52
+    },
+    "sensor_12": {
+      "train_min": 518.69,
+      "train_max": 523.38
+    },
+    "sensor_13": {
+      "train_min": 2387.88,
+      "train_max": 2388.56
+    },
+    "sensor_14": {
+      "train_min": 8099.94,
+      "train_max": 8293.72
+    },
+    "sensor_15": {
+      "train_min": 8.3279,
+      "train_max": 8.5848
+    },
+    "sensor_17": {
+      "train_min": 388.0,
+      "train_max": 400.0
+    },
+    "sensor_20": {
+      "train_min": 38.14,
+      "train_max": 39.43
+    },
+    "sensor_21": {
+      "train_min": 22.8942,
+      "train_max": 23.6184
+    }
+  },
+  "model_input_columns": [
+    "setting_1",
+    "setting_2",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21",
+    "sensor_2_rolling_mean",
+    "sensor_2_rolling_std",
+    "sensor_2_ewma",
+    "sensor_3_rolling_mean",
+    "sensor_3_rolling_std",
+    "sensor_3_ewma",
+    "sensor_4_rolling_mean",
+    "sensor_4_rolling_std",
+    "sensor_4_ewma",
+    "sensor_6_rolling_mean",
+    "sensor_6_rolling_std",
+    "sensor_6_ewma",
+    "sensor_7_rolling_mean",
+    "sensor_7_rolling_std",
+    "sensor_7_ewma",
+    "sensor_8_rolling_mean",
+    "sensor_8_rolling_std",
+    "sensor_8_ewma",
+    "sensor_9_rolling_mean",
+    "sensor_9_rolling_std",
+    "sensor_9_ewma",
+    "sensor_11_rolling_mean",
+    "sensor_11_rolling_std",
+    "sensor_11_ewma",
+    "sensor_12_rolling_mean",
+    "sensor_12_rolling_std",
+    "sensor_12_ewma",
+    "sensor_13_rolling_mean",
+    "sensor_13_rolling_std",
+    "sensor_13_ewma",
+    "sensor_14_rolling_mean",
+    "sensor_14_rolling_std",
+    "sensor_14_ewma",
+    "sensor_15_rolling_mean",
+    "sensor_15_rolling_std",
+    "sensor_15_ewma",
+    "sensor_17_rolling_mean",
+    "sensor_17_rolling_std",
+    "sensor_17_ewma",
+    "sensor_20_rolling_mean",
+    "sensor_20_rolling_std",
+    "sensor_20_ewma",
+    "sensor_21_rolling_mean",
+    "sensor_21_rolling_std",
+    "sensor_21_ewma"
+  ]
+}
